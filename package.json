@@ -1,0 +1,29 @@
+{
+  "name": "electronprojectop",
+  "version": "1.0.0",
+  "description": "Proyecto final investigacion de operaciones",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxnielopez/electronProjectOP.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Miguel Ramirez & Daniel Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dxnielopez/electronProjectOP/issues"
+  },
+  "homepage": "https://github.com/dxnielopez/electronProjectOP#readme",
+  "devDependencies": {
+    "electron": "^19.0.10",
+    "electron-builder": "^23.3.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
