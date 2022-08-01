@@ -1,10 +1,19 @@
 {
-  "name": "electronprojectop",
+  "name": "proyecto_final_op_win32_x64",
   "version": "1.0.0",
   "description": "Proyecto final investigacion de operaciones",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "projectFinalIO",
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
   },
   "repository": {
     "type": "git",
